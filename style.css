@@ -19,6 +19,7 @@ nav{
     top: 0;
     z-index: 1000;
     width: 100%;
+   
 }
 
 nav ul{
@@ -35,10 +36,12 @@ nav ul a{
     font-weight: 500;
     font-size: 20px;
     animation: slideBottom 1s ease-in-out forwards;
+    
 }
 nav ul a:hover{
     color:#6564db;
     font-size: 1.5rem;
+    text-shadow: 0 0 22px #6564db;
     
 }
 .logo{
@@ -83,7 +86,7 @@ nav ul a:hover{
 
 }
 .social-media{
-    animation: slideTop 1s ease-in-out forwards;
+   animation: slideRight 2.5s ease-in-out forwards;
     
 }
 
@@ -106,6 +109,127 @@ nav ul a:hover{
     color: #6564db;
     font-size: 6vb;
     animation: slideRight 2.5s ease-in-out forwards;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+.about-image{
+width: 35vw;
+
+}
+.about-image img{
+height: 22rem;
+border-radius: 50%;
+box-shadow: 0 0 50px #89d2dc;
+margin-left: 4rem;
+}
+
+.about-content{
+width: 55vw;
+}
+.about-content h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+.about-content h2 span{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #89d2dc;
+}
+.about-content h4{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: white;
+    margin: 10px 0 25px 0 ;
+}
+.about-content p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    color: white;
+    margin: 10px 0 25px 0 ;
+}
+.about-more-btn{
+    background-color: #0d1317;
+    color: #89d2dc;
+    border: 3px solid #89d2dc;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    border-radius: 71px;
+}
+.about-more-btn:hover{
+    background-color: #89d2dc;
+    color: #101d42;
+    box-shadow: 0 0 20px #89d2dc;
+}
+
+.services{
+    height: 100vh;
+    padding: 40px;
+}
+.services-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.services-title span{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #89d2dc;
+}
+
+.services-lists {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.services-lists div{
+border: 2px solid #0d1317;
+border-radius: 20px;
+padding: 20px;
+margin: 40px;
+box-shadow: 0 0 80px #232ed1;
+}
+.services-lists div:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 80px #6564db;
+}
+.services-lists div i{
+    font-size: 60px;
+}
+.services-lists div h2{
+    color: #89d2dc;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+}
+.services-lists div p{
+    margin: 0 0 12px 0;
+}
+.services-lists div a{
+    text-decoration: none;
+    background: #0d1317;
+    color: #89d2dc;
+    padding: 3px 9px 3px 9px;
+    border: 3px solid #89d2dc;
+    border-radius: 30px;
+    font-weight: 600;
+    animation: slideLeft 2.5s ease-in-out forwards;
+    animation-delay: 1s;
+    box-shadow: 0 0 20px #6564db;
+}
+.services-lists div a:hover{
+    background-color: #89d2dc;
+    color: #101d42;
+    box-shadow: 0 0 20px #89d2dc;
 }
 
 @keyframes slideRight {
@@ -149,59 +273,3 @@ nav ul a:hover{
     }
   }
   
-.about{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-
-}
-.about-image{
-width: 30vw;
-
-}
-.about-image img{
-height: 20rem;
-border-radius: 50%;
-box-shadow: 0 0 40px #89d2dc;
-}
-
-.about-content{
-width: 50vw;
-}
-.about-content h2{
-    font-size: 50px;
-    font-weight: 500;
-}
-.about-content h2 span{
-    font-size: 2rem;
-    font-weight: 500;
-}
-.about-content h4{
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 1.7rem;
-    color: white;
-    margin: 10px 0 25px 0 ;
-}
-.about-content p{
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1.7rem;
-    color: white;
-    margin: 10px 0 25px 0 ;
-}
-.about-more-btn{
-    background-color: #0d1317;
-    color: #89d2dc;
-    border: 3px solid #89d2dc;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 5px 10px 5px 10px;
-    border-radius: 71px;
-}
-.about-more-btn:hover{
-    background-color: #89d2dc;
-    color: #101d42;
-    box-shadow: 0 0 20px #89d2dc;
-}
