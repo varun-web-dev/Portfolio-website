@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -14,6 +15,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 nav ul{
@@ -28,53 +33,119 @@ nav ul a{
     text-decoration: none;
     color: white;
     font-weight: 500;
+    font-size: 20px;
+    animation: slideBottom 1s ease-in-out forwards;
 }
 nav ul a:hover{
     color:#101d42;
     font-size: 1.5rem;
 }
-.left{
+.logo{
+    font-weight: 500;
     font-size: 2rem;
+    animation: slideRight 1s ease-in-out forwards;
 }
 
-.first-section{
+.home{
+    height: 80vh;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 0;
-}
-.first-section-a{
+    margin: 80px 0 10px 0;
     
+}
+.home-content{
     width: 40%;
+    animation: slideRight 1s ease-in-out forwards;
 
 }
 
-.first-section-b{
-    
+.home-image{
     width: 40%;
+    animation: slideLeft 1s ease-in-out forwards;
 }
-.first-section-b img{
-    height: 30rem;
-    width: 90%;
-    
-    
-}
-.first-section-a div{
-    font-size: 3rem;
+
+.home-image img{
+    height: 25rem;
     width: 80%;
     
+    
 }
-.section-span{
+.home-content div{
+    font-size: 7vb;
+    width: 80%;
+  
+}
+.home-span{
  color: #89d2dc;
+
+}
+.social-media{
+    animation: slideTop 1s ease-in-out forwards;
+    animation-delay: calc(.5*var(--delay));
+}
+
+.social-media a{
+    background-color: transparent;
+    color: #89d2dc;
+    border: 3px solid #89d2dc;
+    height: 1rem;
+    width: 2rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 3px 10px 1px 9px;
+}
+.social-media a:hover{
+    background-color: #89d2dc;
+    color: #0d1317;
+    box-shadow: 0 0 50px#89d2dc;
 }
 #element{
     color: #6564db;
-    font-size: 3rem;
+    font-size: 6vb;
+    animation: slideRight 2.5s ease-in-out forwards;
 }
-/* hr{
-    height: 2px;
-    border: 0;
-    background:  #6564db;
-    margin: 0 80px 0 80px;
 
-} */
+@keyframes slideRight {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes slideTop {
+    0% {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes slideBottom {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
+
