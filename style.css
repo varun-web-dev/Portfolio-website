@@ -10,7 +10,7 @@ body{
     font-family: "Poppins", sans-serif;
 }
 nav{
-    background: #6564db;
+    background: #101d42;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,8 +37,9 @@ nav ul a{
     animation: slideBottom 1s ease-in-out forwards;
 }
 nav ul a:hover{
-    color:#101d42;
+    color:#6564db;
     font-size: 1.5rem;
+    
 }
 .logo{
     font-weight: 500;
@@ -83,7 +84,7 @@ nav ul a:hover{
 }
 .social-media{
     animation: slideTop 1s ease-in-out forwards;
-    animation-delay: calc(.5*var(--delay));
+    
 }
 
 .social-media a{
@@ -148,4 +149,59 @@ nav ul a:hover{
     }
   }
   
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
 
+}
+.about-image{
+width: 30vw;
+
+}
+.about-image img{
+height: 20rem;
+border-radius: 50%;
+box-shadow: 0 0 40px #89d2dc;
+}
+
+.about-content{
+width: 50vw;
+}
+.about-content h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+.about-content h2 span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.about-content h4{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: white;
+    margin: 10px 0 25px 0 ;
+}
+.about-content p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    color: white;
+    margin: 10px 0 25px 0 ;
+}
+.about-more-btn{
+    background-color: #0d1317;
+    color: #89d2dc;
+    border: 3px solid #89d2dc;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    border-radius: 71px;
+}
+.about-more-btn:hover{
+    background-color: #89d2dc;
+    color: #101d42;
+    box-shadow: 0 0 20px #89d2dc;
+}
