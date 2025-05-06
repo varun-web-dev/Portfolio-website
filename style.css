@@ -152,6 +152,11 @@ width: 55vw;
     margin: 10px 0 25px 0 ;
     animation: slideLeft 1s ease-in-out forwards;
 }
+.about-content h4:hover{
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-shadow: 0 0 20px#89d2dc;
+}
 .about-content p{
     font-size: 20px;
     font-weight: 300;
@@ -302,6 +307,11 @@ box-shadow: 0 0 80px #232ed1;
     margin-bottom: 50px;
     animation: slideBottom 1s ease-in-out forwards;
   }
+  .skills .technical-skills h3:hover{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 0 0 20px #89d2dc;
+  }
   .skills .technical-skills{
     width: 40vw;
    
@@ -334,6 +344,11 @@ box-shadow: 0 0 80px #232ed1;
     text-align: center;
     margin-bottom: 10px;
     animation: slideBottom 1s ease-in-out forwards;
+  }
+  .skills .skills-container2 h3:hover{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 0 0 20px #89d2dc;
   }
   .skills .professional-skills{
     width: 40vw;
