@@ -1,14 +1,16 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
 }
-
+html{
+  overflow-x: hidden; /* hides horizontal overflow */
+  width: 100%;
+}
 body{
-    background-color: #0d1317;
+    background-color: hsl(204, 28%, 7%);
     color: white;
-    scrollbar-width: none;
-    overflow-x: hidden;
     font-family: "Poppins", sans-serif;
 }
 nav{
@@ -459,9 +461,89 @@ box-shadow: 0 0 80px #232ed1;
     }
   }
 
+.projects{
+    padding: 80px;
+}
+.projects h2{
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    animation: slideBottom 1s ease-in-out forwards;
+}
+.projects h2 span{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #89d2dc;
+}
+.projects-container{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
 
+  align-items: center;
+ flex-wrap: wrap;
+} 
+.projects .projects-content{
+  height: 15rem;
+  width: 22.5rem;
+  border: 0px solid #89d2dc;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.projects-content img{
+  height: 12rem;
+  width: 20rem;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #101d42;
+  box-shadow: 0 0 20px#89d2dc;
+}
+.projects-content .projects-info{
+  width: 100%;
+  height: 0;
+  font-size: 12px;
+  overflow: hidden;
+}
+ .projects-content:hover {
+  box-shadow:0 0 30px #89d2dc;
+  height: 23rem;
+  animation: projecta1 1s ease-in-out forwards; 
+ }
+ .projects-content:hover .projects-info{
+  animation: projecta1 1s ease-in-out forwards; 
+ }
 
-
+@keyframes projecta1 {
+  0%{
+    height: 10rem;
+    overflow:hidden;
+  }
+  90%{
+    height: 24rem;
+    overflow:hidden;
+  }
+  100%{
+    height: 24rem;
+    overflow: visible;
+  }
+}
+.projects-content .projects-info h4{
+    font-size: 1.5rem;
+}
+.projects-content .projects-info p{
+  font-size: 0.7rem;
+}
+.projects-content .projects-info a{
+  font-size: 1rem;
+}
+.projects-info a:hover{
+  font-size: 1.5rem;
+  text-shadow: #89d2dc;
+}
 
 
 @keyframes slideRight {
