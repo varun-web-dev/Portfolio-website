@@ -121,7 +121,10 @@ nav ul a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    scroll-margin-top: 10px; /* match to fixed navbar */
+  min-height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
 
 }
 .about-image{
@@ -186,8 +189,11 @@ width: 55vw;
 }
 
 .services{
-    height: 100vh;
-    padding: 40px;
+  scroll-margin-top: 10px; /* match to fixed navbar */
+  min-height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+  padding: 40px;
 }
 .services-title {
     display: flex;
@@ -251,8 +257,12 @@ box-shadow: 0 0 80px #232ed1;
 }
 
 .skills{
-    width: 100vw;
+    
     padding: 20px;
+    scroll-margin-top: 10px; /* match to fixed navbar */
+    min-height: 100vh;
+    padding-top: 80px;
+    box-sizing: border-box;
 }
 .skills .containers{
     display: flex;
@@ -487,6 +497,10 @@ box-shadow: 0 0 80px #232ed1;
   }
 
 .projects{
+  scroll-margin-top: 1px; /* match to fixed navbar */
+  min-height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
     padding: 80px;
 }
 .projects h2{
@@ -572,6 +586,10 @@ box-shadow: 0 0 80px #232ed1;
 
 
 .contactme{
+  scroll-margin-top: 1px; /* match to fixed navbar */
+  min-height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
   width: 100vw;
   padding: 40px;
 
