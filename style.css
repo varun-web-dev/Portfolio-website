@@ -32,23 +32,24 @@ nav ul{
     justify-content: center;
    
 }
-nav ul a{
-    display: flex;
-    margin: 0px 20px;
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 20px;
-    animation: slideBottom 1s ease-in-out forwards;
-    
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px 20px;
+  animation: slideBottom 1s ease-in-out forwards;
 }
 nav ul a:hover{
     color:#6564db;
     font-size: 1.5rem;
     text-shadow: 0 0 22px #6564db;
     
-}
+} 
 .logo{
     font-weight: 500;
     font-size: 2rem;
@@ -251,7 +252,7 @@ box-shadow: 0 0 80px #232ed1;
 
 .skills{
     width: 100vw;
-    padding: 40px;
+    padding: 20px;
 }
 .skills .containers{
     display: flex;
@@ -270,6 +271,17 @@ box-shadow: 0 0 80px #232ed1;
     font-size: 2rem;
     font-weight: 500;
     color: #89d2dc;
+}
+.skills-container1{
+  border: 2px solid #0d1317;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 0 80px #232ed1;
+}
+.skills-container1:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 0 80px #6564db;
 }
 .bar {
     margin: 20px ;
@@ -342,7 +354,18 @@ box-shadow: 0 0 80px #232ed1;
     }
   }
   
-  .skills .skills-container2 h3{
+  .skills-container2{
+    border: 2px solid #0d1317;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 0 80px #232ed1;
+  }
+  .skills-container2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 80px #6564db;
+  }
+ .skills-container2 h3{
     color: white;
     font-size: 1.5rem;
     text-align: center;

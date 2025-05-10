@@ -21,10 +21,19 @@
             <div class="logo">My Portfolio</div>
             <div class="links">
                 <ul>
-                    <a href="about.html;#home" class="active">
+                    <ul>
+                        <li><a href="#home" onclick="setTimeout(() => location.reload(), 1000)" class="active">Home</a></li>
+                        <li><a href="#about" onclick="setTimeout(() => location.reload(), 1000)">About</a></li>
+                        <li><a href="#services" onclick="setTimeout(() => location.reload(),1000)">Services</a></li>
+                        <li><a href="#skills" onclick="setTimeout(() => location.reload(), 1000)">Skills</a></li>
+                        <li><a href="#projects" onclick="setTimeout(() => location.reload(), 1000)">Projects</a></li>
+                        <li><a href="#contactme" onclick="setTimeout(() => location.reload(), 1000)">Contact me</a></li>
+                      </ul>
+                      
+                    <!-- <a href="#home" class="active">
                         <li>Home</li>
                     </a>
-                    <a href="#about">
+                    <a href="#about" >
                         <li>About</li>
                     </a>
                     <a href="#services">
@@ -38,7 +47,7 @@
                     </a>
                     <a href="#contactme">
                         <li>Contact me</li>
-                    </a>
+                    </a> -->
 
                 </ul>
             </div>
@@ -125,7 +134,9 @@
 
 
             <div class="containers">
+
                 <div class="skills-container1">
+
                     <div class="technical-skills">
                         <h3>Technical Skills</h3>
 
@@ -266,7 +277,7 @@
             </div>
         </section>
 
-        <section class="contactme">
+        <section class="contactme" id="contactme">
             <h2>Contact<span>me</span></h2>
             <div class="contactme-container">
 
@@ -304,7 +315,7 @@
                     <input type="text" id="subject" name="subject"><br><br>
                   
                     <label for="message">Message:</label><br>
-                    <textarea id="message" name="message"  rows="5" required></textarea><br><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
                   
                     <button type="submit">Submit</button>
                   </form>
