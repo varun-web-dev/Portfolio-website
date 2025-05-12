@@ -187,6 +187,8 @@ width: 55vw;
     font-size: large;
 }
 
+/*Services */
+
 .services{
   scroll-margin-top: 10px; /* match to fixed navbar */
   min-height: 100vh;
@@ -870,7 +872,7 @@ padding: 20px;
     font-size: 2rem;
     font-weight: 500;
     animation: slideBottom 1s ease-in-out forwards;
-    margin: -450px 0 0 0;
+    margin: -440px 0 0 0;
     text-align: center;
   }
 .about-content h2 span{
@@ -879,6 +881,17 @@ padding: 20px;
     color: #89d2dc;
 }
 
+.about-image{
+width: 35vw;
+height: 25vh;
+animation: slideRight 1s ease-in-out forwards;
+}
+.about-image img{
+height: 10rem;
+border-radius: 50%;
+box-shadow: 0 0 50px #89d2dc;
+margin: -50px 0px 6px -22px;
+}
 .about-content h4{
     font-size: 10px;
     font-weight: 500;
@@ -899,17 +912,7 @@ padding: 20px;
     color: white;
     margin: -25px 0 25px 0 ;
 }
-.about-image{
-width: 35vw;
-height: 25vh;
-animation: slideRight 1s ease-in-out forwards;
-}
-.about-image img{
-height: 10rem;
-border-radius: 50%;
-box-shadow: 0 0 50px #89d2dc;
-margin: -50px 0px 6px -22px;
-}
+
 .about-more-btn{
     background-color: #0d1317;
     color: #89d2dc;
@@ -930,6 +933,40 @@ margin: -50px 0px 6px -22px;
     font-size: 12px;
 }
 
+/* Sevices */
+
+.services{
+  width: 100%;  
+}
+.services-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 10px;
+  
+}
+.services-title span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.services-lists {
+    flex-wrap: wrap;
+}
+.services-lists div{
+width: 15rem;
+height: 25rem;
+}
+.services-lists div i{
+    font-size: 30px;
+}
+.services-lists div h2{
+    font-size: 20px;
+}
+.services-lists div p{
+    font-size: 13px;
+}
+.services-lists div a{
+  font-size: 10px;
+}
 }
 
 @keyframes slideRight {
