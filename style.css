@@ -114,6 +114,7 @@ nav ul a:hover{
     animation: slideRight 2.5s ease-in-out forwards;
 }
 
+/* About Me */
 
 .about{
     display: flex;
@@ -753,6 +754,11 @@ margin-top: 20px;
   padding: 0;
   box-sizing: border-box;    
 }
+html{
+  overflow-x: hidden; /* hides horizontal overflow */
+  width:100%;
+  scroll-behavior: smooth;
+}
 /* Navbar */
 
 nav{
@@ -842,8 +848,87 @@ text-align: center;
 
 /* About Me */
 
+.about{
+  height: 100vh;
+  width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+  margin-top: 120px;
+  scroll-margin-top: 10px; /* match to fixed navbar */
+  min-height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
 
+.about-content{
+width: 94%;
+height: 10vh;
+padding: 20px;
+}
 
+.about-content h2{
+    font-size: 2rem;
+    font-weight: 500;
+    animation: slideBottom 1s ease-in-out forwards;
+    margin: -450px 0 0 0;
+    text-align: center;
+  }
+.about-content h2 span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #89d2dc;
+}
+
+.about-content h4{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 0.rem;
+    color: white;
+    margin-top: 200px;
+    animation: slideLeft 1s ease-in-out forwards;
+}
+.about-content h4:hover{
+    font-size: 1rem;
+    text-decoration: underline;
+    text-shadow: 0 0 20px#89d2dc;
+}
+.about-content p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1rem;
+    color: white;
+    margin: -25px 0 25px 0 ;
+}
+.about-image{
+width: 35vw;
+height: 25vh;
+animation: slideRight 1s ease-in-out forwards;
+}
+.about-image img{
+height: 10rem;
+border-radius: 50%;
+box-shadow: 0 0 50px #89d2dc;
+margin: -50px 0px 6px -22px;
+}
+.about-more-btn{
+    background-color: #0d1317;
+    color: #89d2dc;
+    border: 3px solid #89d2dc;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    margin: 0 0 0 72px;
+    border-radius: 71px;
+    font-size: 10px;
+    text-align: center;
+    animation: slideRight 1s ease-in-out forwards;
+}
+.about-more-btn:hover{
+    background-color: #89d2dc;
+    color: #101d42;
+    box-shadow: 0 0 20px #89d2dc;
+    font-size: 12px;
+}
 
 }
 
