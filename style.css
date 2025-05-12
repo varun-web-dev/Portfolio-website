@@ -58,7 +58,6 @@ nav ul a:hover{
 
 .home{
     height: 90vh;
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,10 +90,7 @@ nav ul a:hover{
  color: #89d2dc;
 
 }
-.social-media{
-   animation: slideRight 2.5s ease-in-out forwards;
-    
-}
+
 
 .social-media a{
     background-color: transparent;
@@ -105,6 +101,7 @@ nav ul a:hover{
     border-radius: 50%;
     font-size: 2rem;
     padding: 3px 10px 1px 9px;
+    animation: slideRight 2.5s ease-in-out forwards;
 }
 .social-media a:hover{
     background-color: #89d2dc;
@@ -116,6 +113,7 @@ nav ul a:hover{
     font-size: 6vb;
     animation: slideRight 2.5s ease-in-out forwards;
 }
+
 
 .about{
     display: flex;
@@ -749,6 +747,105 @@ margin-top: 20px;
   box-shadow: 0 0 20px #89d2dc;
 }
 
+@media (max-width : 400px) {
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+/* Navbar */
+
+nav{
+   background: #101d42;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%
+}
+
+nav ul li a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 7px;
+  margin: 0px 3px;
+  animation: slideBottom 1s ease-in-out forwards;
+}
+
+nav ul a:hover{
+    color:#6564db;
+    font-size: 10px;
+    text-shadow: 0 0 22px #6564db;
+    
+} 
+.logo{
+    font-weight: 500;
+    font-size: 0.7rem;
+    animation: slideRight 1s ease-in-out forwards;
+}
+
+/* Home Page */
+
+.home{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 10px 0;
+}
+.home-content{
+    width: 100%;
+    animation: slideRight 1s ease-in-out forwards;
+text-align: center;
+}
+.home-content div{
+    font-size: 1.7rem;
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+    margin: 30px 0 0 0px;
+}
+#element{
+    color: #6564db;
+    font-size: 6vb;
+    animation: slideRight 2.5s ease-in-out forwards;
+    font-size: 1.3rem;
+}
+.social-media{
+  padding: 200px;
+}
+.social-media a{
+    background-color: transparent;
+    color: #89d2dc;
+    border: 2px solid #89d2dc;
+    height: 1rem;
+    width: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 6px 9px 4px 8px;
+    animation: slideRight 2.5s ease-in-out forwards;
+}
+.home-image img{
+    height: 40%;
+    width: 80%;
+    
+}
+.home-image img{
+    height: 15rem;
+    width: 15rem;
+    margin: 20px -50%;
+}
+
+
+/* About Me */
+
+
+
+
+}
 
 @keyframes slideRight {
     0% {
