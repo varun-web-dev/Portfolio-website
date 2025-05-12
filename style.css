@@ -14,6 +14,9 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
 }
+
+/* Navbar */
+
 nav{
     background: #101d42;
     display: flex;
@@ -55,6 +58,8 @@ nav ul a:hover{
     font-size: 2rem;
     animation: slideRight 1s ease-in-out forwards;
 }
+
+/* Home */
 
 .home{
     height: 90vh;
@@ -256,6 +261,8 @@ box-shadow: 0 0 80px #232ed1;
     color: #101d42;
     box-shadow: 0 0 20px #89d2dc;
 }
+
+
 
 .skills{
     
@@ -751,11 +758,7 @@ margin-top: 20px;
 }
 
 @media (max-width : 400px) {
-  *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;    
-}
+
 html{
   overflow-x: hidden; /* hides horizontal overflow */
   width:100%;
@@ -764,51 +767,31 @@ html{
 /* Navbar */
 
 nav{
-   background: #101d42;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     height: 40px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    width: 100%
 }
 
 nav ul li a{
-  display: flex;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
   font-size: 7px;
   margin: 0px 3px;
-  animation: slideBottom 1s ease-in-out forwards;
 }
 
 nav ul a:hover{
-    color:#6564db;
     font-size: 10px;
-    text-shadow: 0 0 22px #6564db;
-    
 } 
 .logo{
-    font-weight: 500;
     font-size: 0.7rem;
-    animation: slideRight 1s ease-in-out forwards;
 }
 
 /* Home Page */
 
 .home{
     height: 80vh;
-    display: flex;
     flex-wrap: wrap;
     margin: 40px 0 10px 0;
 }
 .home-content{
     width: 100%;
-    animation: slideRight 1s ease-in-out forwards;
-text-align: center;
+    text-align: center;
 }
 .home-content div{
     font-size: 1.7rem;
@@ -817,29 +800,19 @@ text-align: center;
     margin: 30px 0 0 0px;
 }
 #element{
-    color: #6564db;
-    font-size: 6vb;
-    animation: slideRight 2.5s ease-in-out forwards;
     font-size: 1.3rem;
 }
 .social-media{
   padding: 200px;
 }
 .social-media a{
-    background-color: transparent;
-    color: #89d2dc;
     border: 2px solid #89d2dc;
-    height: 1rem;
-    width: 2rem;
-    border-radius: 50%;
     font-size: 1rem;
     padding: 6px 9px 4px 8px;
-    animation: slideRight 2.5s ease-in-out forwards;
 }
 .home-image img{
     height: 40%;
-    width: 80%;
-    
+    width: 80%;  
 }
 .home-image img{
     height: 15rem;
@@ -853,13 +826,8 @@ text-align: center;
 .about{
   height: 100vh;
   width: 100%;
-    display: flex;
    flex-wrap: wrap;
   margin-top: 120px;
-  scroll-margin-top: 10px; /* match to fixed navbar */
-  min-height: 100vh;
-  padding-top: 80px;
-  box-sizing: border-box;
 }
 
 .about-content{
@@ -870,66 +838,39 @@ padding: 20px;
 
 .about-content h2{
     font-size: 2rem;
-    font-weight: 500;
-    animation: slideBottom 1s ease-in-out forwards;
     margin: -440px 0 0 0;
     text-align: center;
   }
 .about-content h2 span{
     font-size: 1rem;
-    font-weight: 500;
-    color: #89d2dc;
 }
 
 .about-image{
-width: 35vw;
 height: 25vh;
-animation: slideRight 1s ease-in-out forwards;
 }
 .about-image img{
 height: 10rem;
-border-radius: 50%;
-box-shadow: 0 0 50px #89d2dc;
 margin: -50px 0px 6px -22px;
 }
 .about-content h4{
     font-size: 10px;
-    font-weight: 500;
-    line-height: 0.rem;
-    color: white;
     margin-top: 200px;
-    animation: slideLeft 1s ease-in-out forwards;
 }
 .about-content h4:hover{
     font-size: 1rem;
-    text-decoration: underline;
-    text-shadow: 0 0 20px#89d2dc;
 }
 .about-content p{
     font-size: 10px;
-    font-weight: 300;
     line-height: 1rem;
-    color: white;
     margin: -25px 0 25px 0 ;
 }
 
 .about-more-btn{
-    background-color: #0d1317;
-    color: #89d2dc;
-    border: 3px solid #89d2dc;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 5px 10px 5px 10px;
     margin: 0 0 0 72px;
-    border-radius: 71px;
     font-size: 10px;
     text-align: center;
-    animation: slideRight 1s ease-in-out forwards;
 }
 .about-more-btn:hover{
-    background-color: #89d2dc;
-    color: #101d42;
-    box-shadow: 0 0 20px #89d2dc;
     font-size: 12px;
 }
 
