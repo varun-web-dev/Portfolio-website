@@ -53,6 +53,7 @@ nav ul a:hover{
     text-shadow: 0 0 22px #6564db;
     
 } 
+
 .logo{
     font-weight: 500;
     font-size: 2rem;
@@ -146,12 +147,12 @@ margin-left: 4rem;
 width: 55vw;
 }
 .about-content h2{
-    font-size: 50px;
-    font-weight: 500;
+   font-size: 50px;
+    font-weight: 600;
     animation: slideBottom 1s ease-in-out forwards;
 }
 .about-content h2 span{
-    font-size: 2rem;
+     font-size: 2rem;
     font-weight: 500;
     color: #89d2dc;
 }
@@ -509,7 +510,7 @@ box-shadow: 0 0 80px #232ed1;
   min-height: 100vh;
   padding-top: 80px;
   box-sizing: border-box;
-    padding: 80px;
+  padding: 80px;
 }
 .projects h2{
     padding: 40px;
@@ -589,6 +590,7 @@ box-shadow: 0 0 80px #232ed1;
   text-shadow: #89d2dc;
 }
 
+/* contact me */
 
 .contactme{
   scroll-margin-top: 1px; /* match to fixed navbar */
@@ -655,6 +657,7 @@ margin-top: 20px;
   cursor: pointer;
   font-size: 2rem;
 }
+
 .contactme-list li{
   list-style: none;
   font-size: 20px;
@@ -754,7 +757,7 @@ margin-top: 20px;
   box-shadow: 0 0 20px #89d2dc;
 }
 
-@media (max-width : 400px) {
+@media (max-width: 500px) and (max-height : 950px){
 
 html{
   overflow-x: hidden; /* hides horizontal overflow */
@@ -764,19 +767,19 @@ html{
 /* Navbar */
 
 nav{
-    height: 40px;
+    height: 50px;
 }
 
 nav ul li a{
-  font-size: 7px;
+  font-size: 10px;
   margin: 0px 3px;
 }
 
 nav ul a:hover{
-    font-size: 10px;
+    font-size: 12px;
 } 
 .logo{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 /* Home Page */
@@ -791,13 +794,14 @@ nav ul a:hover{
     text-align: center;
 }
 .home-content div{
-    font-size: 1.7rem;
-    width: 100%;
-    padding: 20px 20px 0px 20px;
-    margin: 30px 0 0 0px;
-}
+    font-size: 2.2rem;
+        width: 100%;
+        padding: 50px 20px 45px 18px;
+        margin: 3px 0 -58px 0px;
+    }
 #element{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    line-height: 7rem;
 }
 .social-media{
   padding: 200px;
@@ -808,13 +812,9 @@ nav ul a:hover{
     padding: 6px 9px 4px 8px;
 }
 .home-image img{
-    height: 40%;
-    width: 80%;  
-}
-.home-image img{
-    height: 15rem;
-    width: 15rem;
-    margin: 20px -50%;
+   height: 21rem;
+        width: 20rem;
+        margin: 48px -50%;
 }
 
 
@@ -835,8 +835,8 @@ padding: 20px;
 
 .about-content h2{
     font-size: 2rem;
-    margin: -440px 0 0 0;
-    text-align: center;
+        margin: -622px 0 0 0;
+      text-align: center;
   }
 .about-content h2 span{
     font-size: 1rem;
@@ -846,29 +846,29 @@ padding: 20px;
 height: 25vh;
 }
 .about-image img{
-height: 10rem;
-margin: -50px 0px 6px -22px;
+height: 15rem;
+margin: -48px 0px 6px -45px;
 }
 .about-content h4{
-    font-size: 10px;
-    margin-top: 200px;
+    font-size: 24px;
+        margin-top: 306px;
 }
 .about-content h4:hover{
-    font-size: 1rem;
+    font-size: 29px;
 }
 .about-content p{
-    font-size: 10px;
-    line-height: 1rem;
-    margin: -25px 0 25px 0 ;
+    font-size: 14px;
+        line-height: 1.3rem;
+        margin: -7px 0 25px 0;
 }
 
 .about-more-btn{
     margin: 0 0 0 72px;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
 }
 .about-more-btn:hover{
-    font-size: 12px;
+    font-size: 17px;
 }
 
 /* Sevices */
@@ -982,6 +982,70 @@ height: 25rem;
 .progress-circle {
     margin: 13px 15px 1px -113px;
   }
+
+  /* Project section */
+  .projects h2{
+    margin-top: -35px;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px;
+    
+}
+.projects h2 span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #89d2dc;
+}
+.projects-container{
+  height: 100%;
+} 
+.projects .projects-content{
+
+  height: 20rem;
+  width: 90%;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 22px 0 0 -72px;
+}
+.projects-content img{
+  width: 100%;
+}
+
+ .contactme h2{
+  font-size: 2rem;
+}
+.contactme span{
+  font-size: 1rem;
+}
+.contactme-container{
+  flex-wrap: wrap; 
+}
+.contactme-info{
+  width: 72vw;
+}
+.contactme-info h4{
+  font-size: 1.3rem;
+}
+.contactme-info h4:hover{
+  font-size: 1.4rem;
+}
+
+.contactme-list .phone:hover{
+  font-size: 1.4rem;
+}
+.contactme-list .email:hover{
+  font-size: 1.4rem;
+}
+
+.contactus-form{
+  width: 72vw;
+}
+.contactus-form h4{
+  font-size: 1.3rem;
+}
+.contactus-form h4:hover{
+  font-size: 1.4rem;
+}
 }
 
 @keyframes slideRight {
