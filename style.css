@@ -262,10 +262,9 @@ box-shadow: 0 0 80px #232ed1;
     box-shadow: 0 0 20px #89d2dc;
 }
 
+/* Skills Section */
 
-
-.skills{
-    
+.skills{ 
     padding: 20px;
     scroll-margin-top: 10px; /* match to fixed navbar */
     min-height: 100vh;
@@ -275,7 +274,6 @@ box-shadow: 0 0 80px #232ed1;
 .skills .containers{
     display: flex;
     width: 100vw;
-    display: flex;
     justify-content: space-around;
     }
 .skills h2{
@@ -407,7 +405,6 @@ box-shadow: 0 0 80px #232ed1;
     width: 150px;
     height: 140px;
     position: relative;
-    font-family: sans-serif;
     text-align: center;
     margin: 20px;
     animation: slideLeft 1s ease-in-out forwards;
@@ -503,6 +500,9 @@ box-shadow: 0 0 80px #232ed1;
       stroke-dashoffset: 84;  
     }
   }
+
+
+/* projects */
 
 .projects{
   scroll-margin-top: 1px; /* match to fixed navbar */
@@ -908,6 +908,83 @@ height: 25rem;
 .services-lists div a{
   font-size: 10px;
 }
+
+/* Skills Section */
+
+
+.skills .containers{
+    flex-wrap: wrap;
+    width: 100%;
+    }
+.skills h2{
+    margin-top: -80px;
+    font-size: 2rem;
+} 
+.skills h2 span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #89d2dc;
+}
+.skills-container1{
+  height: 32rem;
+  width: 19rem;
+  padding: 5px;
+  margin: -10px;
+  margin-top: -20px;
+}
+.bar {
+    width: 189%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1px;
+    margin-bottom: 30px;
+    padding-bottom: 63px;
+    
+  }
+  
+.info {
+  margin-bottom: -13px;
+  font-size: 15px;
+    text-align: center;
+    gap: 1px;
+  }
+  .progress-line {
+    height: 1rem;
+  }
+  .bar i{
+    font-size: 40px;
+  }
+  .skills .technical-skills h3{
+    font-size: 1rem;
+    margin: 21px -116px 50px 22px;
+  }
+  .skills .technical-skills h3:hover{
+    font-size: 1.1rem;
+  }
+.skills-container2{
+   height: 48rem;
+  width: 19rem;
+  padding: 5px;
+  margin: -10px;
+  margin-top: 50px;
+  }
+  .skills-container2 h3{
+    font-size: 1rem;
+    margin: 21px 8px 50px 22px;
+  }
+  .skills .skills-container2 h3:hover{
+    font-size: 1.1rem;
+  }
+   .skills .professional-skills{
+    padding: 0px 0px 0px 84px;
+    margin: 0 0 0 100px;
+}
+.progress-circle {
+    margin: 13px 15px 1px -113px;
+  }
 }
 
 @keyframes slideRight {
