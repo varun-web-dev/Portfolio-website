@@ -9,8 +9,7 @@ html {
 
   /* hides horizontal overflow */
   scroll-behavior: smooth;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+ overflow: visible;
 }
 
 body {
@@ -895,8 +894,9 @@ nav ul a:hover {
 
   nav {
     height: 50px;
+    position: fixed;
   }
-  
+
   #home, #about, #services, #skills, #projects, #contactme {
   scroll-margin-top: 60px;
 }
