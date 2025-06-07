@@ -1232,6 +1232,12 @@ nav ul a:hover {
     width: 72vw;
   }
 
+  .contactme-list .phone:hover{
+    font-size: 1.1rem;
+  }
+  .contactme-list .email:hover{
+    font-size: 1.1rem;
+  }
   .contactme-info h4 {
     font-size: 1.3rem;
   }
