@@ -832,7 +832,7 @@ nav ul a:hover {
   border: 1px solid#89d2dc;
   width: 95%;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: white;
   box-shadow: 0 0 20px #89d2dc;
 }
 
@@ -848,7 +848,7 @@ nav ul a:hover {
   border: 1px solid#89d2dc;
   width: 95%;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: white;
   box-shadow: 0 0 20px #89d2dc;
 }
 
@@ -1021,7 +1021,7 @@ nav ul a:hover {
 
   .about-image img {
     height: 15rem;
-    margin: -48px 0px 6px -45px;
+    margin: -38px 0px 6px -45px;
   }
 
   .about-content h4 {
@@ -1233,10 +1233,10 @@ nav ul a:hover {
   }
 
   .contactme-list .phone:hover{
-    font-size: 0.7rem;
+    font-size: 1.1rem;
   }
   .contactme-list .email:hover{
-    font-size: 0.7rem;
+    font-size: 1.1rem;
   }
   .contactme-info h4 {
     font-size: 1.3rem;
